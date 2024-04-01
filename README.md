@@ -4,10 +4,11 @@ MishiPay es una billetera digital que te ofrece una experiencia para hacer tus t
 
 pd: No usamos la estructura sugerida en el documento porque el código no está hecho en Java
 
-Frontend:
+## Frontend:
 
 En la carpeta frontend, encontrarás todo el código HTML, CSS y JavaScript necesario para la interfaz de usuario de MishiPay. Además, dentro de esta carpeta, también encontrarás estructuras de arreglo estático y pila que complementan la experiencia de usuario. Puedes acceder a la página web en funcionamiento visitando MishiPay en Vercel.
-Backend:
+
+## Backend:
 
 Dentro de la carpeta backend, encontrarás el código en Python que alimenta nuestra robusta API REST, construida con FastAPI. Aquí hay una breve descripción de lo que puedes encontrar en las subcarpetas:
 
