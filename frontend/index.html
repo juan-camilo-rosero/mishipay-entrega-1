@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Transformamos tu celular en una billetera para pagos sin complicaciones, comisiones y desde cualquier dispositivo">
+    <meta name="keywords" content="MishiPay, billetera digital, pagos virtuales, mishi pay">
+    <meta name="author" content="G4 ED 2024 - 1">
+    <meta name="robots" content="index, follow">
+    <link rel="shortcut icon" href="assets/logo.png">
+
+    <title>MishiPay - La billetera digital para tu negocio uwun't</title>
+    
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!-- AOS -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+    
+    <link rel="stylesheet" href="style.css">    
+
+</head>
+<body>
+    <header>
+        <div class="header-logo-div">
+            <img src="assets/logo.png" alt="Logo MishiPay" class="header-logo">
+            <p class="header-name">MishiPay</p>
+        </div>
+    </header>
+    <main>
+        <section id="hero-section">
+            <div class="hero-section-img" data-aos="fade-up" data-aos-duration="1000"></div>
+            <div class="hero-section-content" data-aos="fade-up" data-aos-duration="1000">
+                <h1>MishiPay</h1>
+                <p class="normal-text">Tu billetera digital para pagos <b class="purple">sin complicaciones, comisiones y desde cualquier dispositivo</b></p>
+                <div class="hero-section-btns">
+                    <button class="hero-section-sign-up">Comenzar ahora</button>
+                    <button class="hero-section-login">Iniciar sesión</button>
+                </div>
+            </div>
+        </section>
+        <section id="why-us">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">¿Por qué MishiPay?</h2>
+            <div class="why-us-blocks">
+                <figure data-aos="fade-up" data-aos-duration="1000">
+                    <h3>Lleva tus cuentas</h3>
+                    <p class="normal-medium-text">Con MishiPay, puedes llevar un historial de los pagos que has efectuado y recibido, permitiéndote tener un mayor control sobre tus finanzas</p>
+                </figure>
+                <figure data-aos="fade-up" data-aos-duration="1000">
+                    <h3>Fácil de usar</h3>
+                    <p class="normal-medium-text">Lo único que debes hacer para efectuar un pago es ingresar el monto a enviar y el celular del usuario que va a recibir el dinero, es como nequi, pero con gatitos</p>
+                </figure>
+                <figure data-aos="fade-up" data-aos-duration="1000">
+                    <h3>Lista de pagos</h3>
+                    <p class="normal-medium-text">Puedes hacer una lista con tus deudas, y con un solo botón podrás pagarlas todas cuando tú quieras</p>
+                </figure>
+            </div>
+        </section>
+    </main>
+    <section id="sign-up" class="none hidden">
+        <figure class="sign-up-container">
+            <div class="close">
+                <p>X</p>
+            </div>
+            <h3 class="block-title">Ingresa tu información</h3>
+            <form>
+                <input type="tel" placeholder="Número de celular" id="sign-up-tel">
+                <input type="text" placeholder="Nombre" id="sign-up-name">
+                <input type="email" placeholder="Correo electrónico" id="sign-up-email">
+                <input type="password" placeholder="Contraseña" id="sign-up-password">
+                <button type="submit" class="sign-up-btn">Crear cuenta</button>
+            </form>
+        </figure>
+    </section>
+    <section id="login" class="none hidden">
+        <figure class="login-container">
+            <div class="close">
+                <p>X</p>
+            </div>
+            <h3 class="block-title">Iniciar sesión</h3>
+            <form>
+                <input type="email" placeholder="Correo electrónico" id="login-email">
+                <input type="password" placeholder="Contraseña" id="login-password">
+                <button type="submit" class="login-btn">Entrar</button>
+            </form>
+        </figure>
+    </section>
+    <footer>
+        <p>Aquí no hay nada, solo un gatito :3</p>
+    </footer>
+    
+    <script src="script.js" type="module"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
